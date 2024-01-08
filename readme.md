@@ -1,16 +1,38 @@
-# Jornada do Herói
+Instruções para entrega
+# 3️⃣ Escrevendo as classes de um Jogo
 
-Este projeto simula a jornada épica de um herói através de uma floresta perigosa até a caverna de um temido dragão.
+**O Que deve ser utilizado**
 
-## Funcionalidades
+- Variáveis
+- Operadores
+- Laços de repetição
+- Estruturas de decisões
+- Funções
+- Classes e Objetos
 
-- O herói começa em uma posição inicial na floresta.
-- A cada passo, o herói toma uma decisão aleatória entre se mover para a esquerda, direita ou ficar parado.
-- A posição do herói é limitada para evitar que ele saia da floresta.
+## Objetivo:
 
-## Como usar
+Crie uma classe generica que represente um herói de uma aventura e que possua as seguintes propriedades:
 
-1. Clone o repositório:
+- nome
+- idade
+- tipo (ex: guerreiro, mago, monge, ninja )
 
-```bash
-git clone
+além disso, deve ter um método chamado atacar que deve atender os seguientes requisitos:
+
+- exibir a mensagem: "o {tipo} atacou usando {ataque}")
+- aonde o {tipo} deve ser concatenando o tipo que está na propriedade da classe
+- e no {ataque} deve seguir uma descrição diferente conforme o tipo, seguindo a tabela abaixo:
+
+se mago -> no ataque exibir (usou magia)
+se guerreiro -> no ataque exibir (usou espada)
+se monge -> no ataque exibir (usou artes marciais)
+se ninja -> no ataque exibir (usou shuriken)
+
+## Saída
+
+Ao final deve se exibir uma mensagem:
+
+- "o {tipo} atacou usando {ataque}"
+  ex: mago atacou usando magia
+  guerreiro atacou usando espada
